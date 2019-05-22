@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Principal",
+            "request": "launch",
+            "mainClass": "mayo2017.Principal",
+            "projectName": "IS_Java8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Tablero",
+            "request": "launch",
+            "mainClass": "mayo2017.Tablero",
+            "projectName": "IS_Java8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Principal",
+            "request": "launch",
+            "mainClass": "mayo2018.Principal",
+            "projectName": "IS_Java8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Principal4",
+            "request": "launch",
+            "mainClass": "ejercicio4.Principal4",
+            "projectName": "IS_Java8"
+        }
+    ]
+}
