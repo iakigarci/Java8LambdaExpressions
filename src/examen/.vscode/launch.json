@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrincipalEx",
+            "request": "launch",
+            "mainClass": "examen.PrincipalEx"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrinipalEx",
+            "request": "launch",
+            "mainClass": "examen.PrinipalEx"
+        }
+    ]
+}

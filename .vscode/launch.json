@@ -4,6 +4,13 @@
             "type": "java",
             "name": "CodeLens (Launch) - Principal",
             "request": "launch",
+            "mainClass": "examen.Principal",
+            "projectName": "IS_Java8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Principal",
+            "request": "launch",
             "mainClass": "mayo2017.Principal",
             "projectName": "IS_Java8"
         },

@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Principal",
+            "request": "launch",
+            "mainClass": "examen.Principal",
+            "projectName": "src_6532e81c"
+        }
+    ]
+}

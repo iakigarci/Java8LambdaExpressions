@@ -2,29 +2,25 @@ package ejercicio4;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
+import java.util.OptionalInt;
 
 public class Principal4 {
 
-	public static void main(String... args) {
-		ArrayList<Persona> l = new ArrayList<Persona>();
-		
-		Persona p1 = new Persona("123", "Jon", "Garci", 13, "a", "ingeniero");
-		Persona p2 = new Persona("1234", "Joni", "Garci", 12, "a", "ingeniero");
-		Persona p3 = new Persona("12345", "Jon", "Garci", 12, "a", "ingeniero");
-		Persona p4 = new Persona("123456", "Jon", "Garci", 12, "a", "ingeniero");
-		Persona p5 = new Persona("1234567", "Jon", "Garci", 14, "a", "ingeniero");
-		Persona p6 = new Persona("12345678", "Jon", "Garci", 12, "a", "ingeniero");
+	public static void main(String[] args) {
+       
+        List<Integer> l = new ArrayList<>();
+        l.add(1);
+        l.add(2);
+        l.add(30);
+        l.add(4);
+        l.add(7);
 
-		l.add(p1);
-		l.add(p2);
-		l.add(p3);
-		l.add(p4);
-		l.add(p5);
-		l.add(p6);
+		Integer max = l.stream().mapToInt(a->a).max().orElse(0);
+		System.out.println("Resultado: "+max);
 		
-		Censo.getCenso().setLista(l);
-		Censo.getCenso().mediadEdadPoblacion();
-		Censo.getCenso().porcentajeIngenieros();
-	}
+		Optional<Integer> max2 = l.stream().max((a1, a2) -> a1.compareTo(a2));
+		System.out.println("Resultado: "+max2.get());
+   }
 	
 }
